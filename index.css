@@ -34,3 +34,63 @@ header, footer {
   color: white;
   text-align: center;
 }
+/* Set general background and font styles */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the logo */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5em;
+  color: #0066cc;
+}
+
+/* Style header */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 1em;
+}
+
+/* Style navigation links */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  font-weight: bold;
+}
+
+/* Article styling area (freedom to style) */
+article {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+}
+
+/* Aside area */
+aside {
+  background-color: #e8f0fe;
+  padding: 1.5em;
+  border-left: 4px solid #0066cc;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 1em;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
