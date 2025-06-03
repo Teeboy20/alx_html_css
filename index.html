@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="base.css" rel="stylesheet">
-  <link href="index.css" rel="stylesheet">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechCon 2024 - Home</title>
+
+  <!-- Fonts and Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 </head>
 
-<body class="works_on_smartphone">
- 
-  <header>Content of the header tag</header>
-
-  <main>
-    <article>Content of the article tag</article>
-    <aside>Content of the aside tag</aside>
-  </main>
-
-  <footer>Content of the footer tag</footer>
-
-
+<body>
   <!-- Header -->
   <header>
-  <ul>
-    <li class="logo">&#9881;</li> <!-- Gear icon as logo -->
-    <!-- your other list items go here -->
-  </ul>
-    <h1>TechCon 2024</h1>
-    <nav>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <img src="CSS Advance/logo.png" alt="SmileSchool Logo" class="site-logo" width="120">
+      <h1>TechCon 2024</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!-- Main Content -->
   <main>
     <section>
       <h2>Welcome to TechCon 2024</h2>
-      <p>Join us at TechCon 2024, the premier technology conference bringing together industry leaders, innovators, and enthusiasts to explore the future of technology and innovation.</p>
+      <p>
+        Join us at TechCon 2024, the premier technology conference bringing together industry leaders,
+        innovators, and enthusiasts to explore the future of technology and innovation.
+      </p>
 
       <!-- Embedded Promotional Video -->
       <video controls width="640">
         <source src="promo.mp4" type="video/mp4">
         <source src="promo.webm" type="video/webm">
         <track src="captions.vtt" kind="subtitles" srclang="en" label="English">
-        Your browser does not support the video tag. Please download the video <a href="promo.mp4">here</a>.
+        Your browser does not support the video tag. Download it <a href="promo.mp4">here</a>.
       </video>
     </section>
   </main>
@@ -57,6 +50,5 @@
   <footer>
     <p>&copy; 2024 TechCon. All rights reserved. <strong>Copyright</strong></p>
   </footer>
-
 </body>
 </html>
