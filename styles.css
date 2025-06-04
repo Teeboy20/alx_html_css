@@ -1,8 +1,65 @@
-/* styles.css - custom styles for TechCon 2024 */
-body {
-  font-family: 'Source Sans Pro', sans-serif;
+/* Reset some default margin/padding */
+body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
   color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #1c1c1c;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* First Section (Hero) */
+section.hero {
+  background-image: url('images/hero-background.jpg'); /* Use correct path from Figma assets */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+section.hero h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+section.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
