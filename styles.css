@@ -137,3 +137,44 @@ section.hero p {
   color: #777;
   margin: 0 16px 16px;
 }
+/* Membership Section */
+.membership {
+  background-color: #071629; /* Dark background (adjust per Figma) */
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.membership-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.membership-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.membership-desc {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #ccc; /* Lighter text (adjust per Figma) */
+}
+
+.membership-btn {
+  background-color: #c271ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership-btn:hover {
+  background-color: #a34de0;
+}
