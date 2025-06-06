@@ -223,3 +223,44 @@ section.hero p {
   line-height: 1.6;
   color: #666;
 }
+/* Footer */
+.footer {
+  background-color: #071629; /* Check Figma for exact dark color */
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  height: 30px;
+  width: 30px;
+  transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+  opacity: 0.7;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #ccc;
+}
