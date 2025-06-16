@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #0d1b2a;
+  padding: 20px 0;
+  color: white;
+}
+
+.logo, .footer-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background: url('your-image.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero .description {
+  margin-top: 20px;
+  font-size: 14px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-btn {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.what-we-do, .results, .contact {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.what-we-do .services,
+.results .stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service, .stat {
+  width: 22%;
+  min-width: 120px;
+  margin-bottom: 20px;
+}
+
+.service h3, .stat p {
+  margin-top: 10px;
+}
+
+.stat span {
+  display: block;
+  background-color: #ff5a5f;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer .container {
+  justify-content: space-between;
+}
+
+footer .socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 12px;
+}
