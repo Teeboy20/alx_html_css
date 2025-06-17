@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 .hero {
-  background: url('your-image.jpg') center/cover no-repeat;
+ background: url('__MACOSX/01_headphones_desktop@2x.png') center/cover no-repeat;
   padding: 100px 20px;
   color: white;
   text-align: center;
@@ -145,4 +145,39 @@ footer .socials a {
 footer p {
   margin-top: 10px;
   font-size: 12px;
+}
+/* Hamburger menu - hidden on large screens */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Hide nav by default on small screens */
+@media (max-width: 480px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #0d1b2a;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
 }
